@@ -1,11 +1,126 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <a href="https://en.wikipedia.org/" target="top">wikipedia</a>
+    <div class="class1">
+        <div class="class2">
+            <h3>Hello World</h3>
+        </div>
+    </div>
+
+    <div data-color="red">This will be red</div>
+    <div data-color="green">This will not be green</div>
+    <div data-color="blue">This will not be red</div>
+    <br><br>
+
+
+    <div class="color-red foo-bar the-div">This will be red</div>
+    <div class="color foo-bar the-div">This will be red</div>
+    <br><br>
+
+
+    <div class="foobar-file">This will be red</div>
+    <div class="foobar-file">This will be red</div>
+    <div class="foobar-input">This will be red</div>
+    <br><br>
+
+
 </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: bisque;">
+    <a href="https://www.google.com/" target="_top">google.com</a><br>
+    <a href="https://www.google.com/" target="_self">this is google</a><br>
+    <a href="https://www.google.com/" target="_parent">welcome to google</a>
+    <div class="class1">
+        <div class="class2">class1 is parent class of class2</div>
+    </div>
+    <div class="class1 class2">This is different from previous class</div>
+    <h2>The current color keyword</h2>
+    <p>This is some text in the body...</p>
+    <div>
+        <p>This div's background color is set to the color valueof the body element.</p>
+    </div>
+
+    <div class="class1 class2 class3">
+        <div class="class1 class2">
+            <div class="class3">
+                <p>This is another paragraph.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div data-color="red">This will be red</div>
+    <div data-color="green">This will be red</div>
+    <div data-background="red">This will NOT be red</div>
+<br><br>
+    <div data-color-value="yellow">This will be yellow</div>
+    <div data-color-value="green">This will NOT be yellow</div>
+    <div data-color-value="voilet">This will NOT be yellow</div>
+<br><br>
+    <div class="foo-123">This will be silver</div> <!--Anywhere should class match-->
+    <div class="foooolish">This will  be silver</div>
+    <div class="vofooooviilet">This will  be silver</div>
+    <div class="vofooooviilet">This will  be silver</div>
+    <div class="folish">This will NOT be silver</div>
+<br><br>
+    <div class="color123 hellowi sjnk">This will be golden</div> <!--Only with space should match-->
+    <div class="color123hdosk">This will NOT be golden</div>
+    <div class="color121">This will  be golden</div>
+<br><br>
+
+    <div class="color69 hellowi sjnk">This will be pink</div> <!--At the starting should match-->
+    <div class="color69hdosk">This will be be pink</div>
+    <div class="hellow color69">This will NOT be pink</div>
+<br><br>
+
+    <div class="helloworld">This will be orange</div> <!--At the ending should match-->
+    <div class="helloworld">This will be be orange</div>
+    <div class="hellowworldcolor69">This will NOT be orange</div>
+<br><br>
+<div>
+    <span>Hello
+        <div>
+            <span>lokendra
+                <div>
+                    <span>Hello</span>
+                </div>
+            </span>
+        </div>
+        
+    </span>
+</div>
+
+<div>
+    <span>
+        <div><p>hhahahahahah</p>
+            <p>This is a paragraph</p>
+            <p>This is also a paragraph</p><div>
+
+        </div>
+            <span>
+                Tilde
+            </span>
+        </div>
+    </span>
+</div>
+</body>
+
 </html>
